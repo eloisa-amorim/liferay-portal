@@ -47,7 +47,7 @@ public class DDMFormLayoutValidatorTest {
 	public void testDuplicateFieldNames() throws Exception {
 		DDMFormLayoutColumn ddmFormLayoutColumn1 = _createDDMFormLayoutColumn(
 			6, "field1", "field2", "field3");
-
+		// apenas testes de exemplo
 		DDMFormLayoutColumn ddmFormLayoutColumn2 = _createDDMFormLayoutColumn(
 			6, "field1", "field3");
 
